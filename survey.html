@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="survey.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Анкета</h1>
+        <form id="surveyForm">
+            <div class="input-group">
+                <label for="name">Имя: </label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="input-group">
+                <label for="age">Возраст: </label>
+                <input type="number" id="age" min="0" required>
+            </div>
+            <div class="input-group">
+                <label for="gender">Пол: </label>
+                <input type="text" id="gender" required>
+            </div>
+            <div class="input-group">
+                <label for="skills">Навыки: </label>
+                <input type="checkbox" id="mathSkill"> Знание математики
+                <input type="checkbox" id="progSkill"> Знание программирования
+                <input type="checkbox" id="otherSkill"> Другие навыки
+                <input type="text" id="otherSkillText" placeholder="Введите другие навыки">
+            </div>
+            <div class="input-group">
+                <label for="education">Высшее образование: </label>
+                <input type="checkbox" id="education">
+            </div>
+            <div class="input-group">
+                <label for="avatar">Аватарка: </label>
+                <input type="file" id="avatar">
+            </div>
+            <button type="button" id="submitForm" onclick="submitSurvey()">Меня возьмут</button>
+            <button type="button" onclick="editSurvey()">Редактировать анкету</button>
+        </form>
+        <p id="result"></p>
+        <button class="nav-button" onclick="location.href='index.html'">На главную</button>
+    </div>
+</body>
+</html>
