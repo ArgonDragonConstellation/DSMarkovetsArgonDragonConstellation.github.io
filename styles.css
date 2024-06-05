@@ -1,0 +1,79 @@
+body {
+    font-family: Tahoma, serif;
+    margin: 20px;
+    background-color: #2e2e2e; /* Темный фон */
+    color: #f4f4f4; /* Светлый текст */
+}
+h1 {
+    color: #f4f4f4;
+}
+.learned-ok {
+    color: green;
+}
+.learning-in-progress {
+    color: orange;
+}
+.not-learned {
+    color: red;
+}
+.profile {
+    margin-top: 20px;
+}
+.profile img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+.profile p {
+    font-size: 1.2em;
+}
+.profile .input-section {
+    margin-top: 10px;
+}
+.profile input, .profile button {
+    margin: 5px 0;
+}
+.profile .change-color {
+    margin-top: 20px;
+}
+.profile .result {
+    font-size: 1.2em;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #444; /* Темный фон для результата */
+}
+.rainbow {
+    margin-top: 20px;
+    display: table;
+}
+.rainbow div {
+    width: 50px;
+    height: 50px;
+    display: table-cell;
+}
+.red { background-color: red; }
+.orange { background-color: orange; }
+.yellow { background-color: yellow; }
+.green { background-color: green; }
+.blue { background-color: blue; }
+.indigo { background-color: indigo; }
+.violet { background-color: violet; }
+.calculator {
+    margin-top: 20px;
+}
+.calculator input, .calculator button {
+    margin: 5px;
+}
+.result-box {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #444; /* Темный фон для результата */
+}
+
+
+.result-box {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
